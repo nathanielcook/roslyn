@@ -122,6 +122,11 @@
         <target state="translated">移除不必要的 Using</target>
         <note />
       </trans-unit>
+      <trans-unit id="Sort_Usings">
+        <source>S&amp;ort Usings</source>
+        <target state="new">S&amp;ort Usings</target>
+        <note />
+      </trans-unit>
       <trans-unit id="Sort_accessibility_modifiers">
         <source>Sort accessibility modifiers</source>
         <target state="translated">排序協助工具修飾詞</target>

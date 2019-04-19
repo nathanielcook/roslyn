@@ -12,6 +12,11 @@
         <target state="translated">Supprimer les espaces de noms superflus</target>
         <note />
       </trans-unit>
+      <trans-unit id="SortNamespacesWithAccelerator">
+        <source>S&amp;ort Namespaces</source>
+        <target state="new">S&amp;ort Namespaces</target>
+        <note />
+      </trans-unit>
     </body>
   </file>
 </xliff>

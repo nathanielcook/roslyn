@@ -12,6 +12,11 @@
         <target state="translated">移除不需要的命名空間</target>
         <note />
       </trans-unit>
+      <trans-unit id="SortNamespacesWithAccelerator">
+        <source>S&amp;ort Namespaces</source>
+        <target state="new">S&amp;ort Namespaces</target>
+        <note />
+      </trans-unit>
     </body>
   </file>
 </xliff>

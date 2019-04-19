@@ -116,6 +116,12 @@
         
         <note />
       </trans-unit>
+      <trans-unit id="Sort_Imports">
+        <source>S&amp;ort Imports</source>
+        <target state="new">S&amp;ort Imports</target>
+        
+        <note />
+      </trans-unit>
       <trans-unit id="Type_a_name_here_to_declare_a_new_field">
         <source>Type a name here to declare a new field.</source>
         <target state="translated">여기에 이름을 입력하여 새 필드를 선언하세요.</target>
