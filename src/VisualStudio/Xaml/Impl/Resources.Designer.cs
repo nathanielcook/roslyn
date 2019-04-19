@@ -77,5 +77,14 @@ namespace Microsoft.VisualStudio.LanguageServices.Xaml {
                 return ResourceManager.GetString("RemoveUnnecessaryNamespaces", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to S&amp;ort Namespaces.
+        /// </summary>
+        internal static string SortNamespacesWithAccelerator {
+            get {
+                return ResourceManager.GetString("SortNamespacesWithAccelerator", resourceCulture);
+            }
+        }
     }
 }

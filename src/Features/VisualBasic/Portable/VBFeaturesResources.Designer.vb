@@ -2438,6 +2438,15 @@ Namespace Microsoft.CodeAnalysis.VisualBasic.VBFeaturesResources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to S&amp;ort Imports.
+        '''</summary>
+        Friend ReadOnly Property Sort_Imports() As String
+            Get
+                Return ResourceManager.GetString("Sort_Imports", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Specifies a collection and a range variable to use in a query..
         '''</summary>
         Friend ReadOnly Property Specifies_a_collection_and_a_range_variable_to_use_in_a_query() As String

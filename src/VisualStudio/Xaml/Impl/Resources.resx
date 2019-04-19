@@ -123,4 +123,7 @@
   <data name="RemoveUnnecessaryNamespaces" xml:space="preserve">
     <value>Remove Unnecessary Namespaces</value>
   </data>
+  <data name="SortNamespacesWithAccelerator" xml:space="preserve">
+    <value>S&amp;ort Namespaces</value>
+  </data>
 </root>

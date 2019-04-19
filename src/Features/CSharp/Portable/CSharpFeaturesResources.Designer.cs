@@ -1160,6 +1160,15 @@ namespace Microsoft.CodeAnalysis.CSharp {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to S&amp;ort Usings.
+        /// </summary>
+        internal static string Sort_Usings {
+            get {
+                return ResourceManager.GetString("Sort_Usings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to struct.
         /// </summary>
         internal static string struct_ {

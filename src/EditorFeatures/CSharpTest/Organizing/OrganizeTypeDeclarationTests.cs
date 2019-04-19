@@ -1099,7 +1099,10 @@ interface I
 
                 var handler = new OrganizeDocumentCommandHandler();
 
-                var state = handler.GetCommandState(new SortAndRemoveUnnecessaryImportsCommandArgs(textView, textView.TextBuffer));
+                var state = handler.GetCommandState(new SortImportsCommandArgs(textView, textView.TextBuffer));
+                Assert.True(state.IsUnspecified);
+
+                state = handler.GetCommandState(new SortAndRemoveUnnecessaryImportsCommandArgs(textView, textView.TextBuffer));
                 Assert.True(state.IsUnspecified);
 
                 state = handler.GetCommandState(new OrganizeDocumentCommandArgs(textView, textView.TextBuffer));

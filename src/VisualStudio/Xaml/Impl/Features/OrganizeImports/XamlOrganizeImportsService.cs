@@ -29,12 +29,8 @@ namespace Microsoft.CodeAnalysis.Editor.Xaml.OrganizeImports
             return await _organizeService.OrganizeNamespacesAsync(document, placeSystemNamespaceFirst, cancellationToken).ConfigureAwait(false) ?? document;
         }
 
-        public string SortAndRemoveUnusedImportsDisplayStringWithAccelerator
-        {
-            get
-            {
-                return Resources.RemoveAndSortNamespacesWithAccelerator;
-            }
-        }
+        public string SortAndRemoveUnusedImportsDisplayStringWithAccelerator => Resources.RemoveAndSortNamespacesWithAccelerator;
+
+        public string SortImportsDisplayStringWithAccelerator => Resources.SortNamespacesWithAccelerator;
     }
 }
